@@ -409,7 +409,7 @@ export default function WaitlistClient() {
       </motion.header>
 
       {/* ── Hero ── */}
-      <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-20 sm:py-32 text-center">
+      <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-10 sm:py-15 text-center">
         <motion.div
           className="flex flex-col items-center w-full"
           variants={stagger}
