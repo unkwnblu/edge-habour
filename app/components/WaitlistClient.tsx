@@ -364,7 +364,7 @@ export default function WaitlistClient() {
 
       {/* ── Header ── */}
       <motion.header
-        className="relative z-10 w-full px-6 py-6 sm:px-12 lg:px-16 flex items-center justify-between"
+        className="sticky top-0 z-50 w-full px-6 py-5 sm:px-12 lg:px-16 flex items-center justify-between bg-white/80 backdrop-blur-md border-b border-gray-100/80 shadow-[0_1px_24px_rgba(0,0,0,0.06)]"
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease }}
