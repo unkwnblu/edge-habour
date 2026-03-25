@@ -49,13 +49,11 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "/",
     siteName: "Edge Harbour",
-    title: "Edge Harbour — Compliant Recruitment for Healthcare & Hospitality",
+    title: "Edge Harbour — Compliant Recruitment for Healthcare, Hospitality , Customer Service & Tech",
     description:
       "Hire pre-vetted, Right-to-Work verified professionals in 48 hours. Join 500+ UK employers already on our platform.",
     images: [
       {
-        // SEO TODO: Create a 1200×630 branded OG image at /public/og-image.jpg
-        // Include the Edge Harbour logo, headline, and a clean brand background.
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
@@ -69,8 +67,6 @@ export const metadata: Metadata = {
     description:
       "Hire pre-vetted, Right-to-Work verified professionals in 48 hours.",
     images: ["/og-image.jpg"],
-    // SEO TODO: Replace with your actual Twitter/X handle once created
-    // creator: "@edgeharbour",
   },
 };
 
