@@ -272,7 +272,7 @@ export default function WaitlistClient() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white flex flex-col font-sans overflow-hidden">
+    <div className="relative min-h-screen bg-white flex flex-col font-sans overflow-x-clip">
 
       {/* ── Floating background orbs ── */}
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">

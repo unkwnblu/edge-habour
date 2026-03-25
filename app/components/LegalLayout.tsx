@@ -15,7 +15,7 @@ export default function LegalLayout({
   return (
     <div className="min-h-screen bg-white font-sans flex flex-col">
       {/* Header */}
-      <header className="w-full px-6 py-6 sm:px-12 lg:px-16 flex items-center justify-between border-b border-gray-100">
+      <header className="sticky top-0 z-50 w-full px-6 py-5 sm:px-12 lg:px-16 flex items-center justify-between bg-white/80 backdrop-blur-md border-b border-gray-100/80 shadow-[0_1px_24px_rgba(0,0,0,0.06)]">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <Image src="/eh-logo.svg" width={32} height={32} alt="Edge Harbour" />
           <span className="text-lg font-black tracking-tight">
