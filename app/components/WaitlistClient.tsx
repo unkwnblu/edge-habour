@@ -392,7 +392,7 @@ export default function WaitlistClient() {
         </motion.div>
 
         <motion.a
-          href="mailto:hello@edgeharbour.co.uk"
+          href="mailto:enquiries@edgeharbour.co.uk"
           className="relative text-sm text-gray-400 hover:text-gray-900 transition-colors duration-200"
           whileHover="hover"
           initial="rest"

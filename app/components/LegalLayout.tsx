@@ -24,7 +24,7 @@ export default function LegalLayout({
           </span>
         </Link>
         <a
-          href="mailto:info@edgeharbour.co.uk"
+          href="mailto:enquiries@edgeharbour.co.uk"
           className="text-sm text-gray-400 hover:text-gray-900 transition-colors duration-200"
         >
           Contact Us
